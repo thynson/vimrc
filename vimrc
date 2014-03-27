@@ -27,15 +27,9 @@ filetype plugin on
 filetype indent on
 
 syntax enable
-set tags+=~/.vim/tags
 
 " Save all files and run make
 map <F5> :wall<CR>:make<CR>
-
-" Make tags
-map <F6> :!ctags -R --c++kinds=+p --fields=+iaS --extra=+q --append . <CR>
-
-map <C-F6> :!(cd ~/.vim/; ctags -r --filelds=+ias --extra=+q --append /usr/include ) <CR>
 
 " Prev error after make
 map <F7> :cp<CR>
@@ -48,6 +42,8 @@ nmap <C-j> <C-w>j
 nmap <C-h> <C-w>h
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
+
+nnoremap <C-]> :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " Move text after the cursor to next line
 inoremap <C-J> <CR><C-O>:-1<CR><C-O>$
