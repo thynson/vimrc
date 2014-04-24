@@ -42,3 +42,6 @@
 [submodule "bundle/ragel"]
 	path = bundle/ragel
 	url = https://github.com/jayferd/ragel.vim
+[submodule "bundle/xmledit"]
+	path = bundle/xmledit
+	url = https://github.com/sukima/xmledit/
