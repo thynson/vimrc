@@ -8,6 +8,10 @@ git remote add origin https://github.com/thynson/vimrc.git
 git pull origin master
 git submodule init
 git submodule update
-ln -sf ~/.vim/vimrc ~/.vimrc
+```
+For older version of vim, you may need one more step:
+```bash
+ln -snf ~/.vim/vimrc .vimrc
+ln -snf ~/.vim/gvimrc .gvimrc
 ```
 
