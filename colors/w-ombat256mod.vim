@@ -28,10 +28,10 @@ hi Search		ctermfg=177		ctermbg=241		cterm=none		guifg=#d787ff	guibg=#636066	gui
 hi Folded		ctermfg=103		ctermbg=237		cterm=none		guifg=#a0a8b0	guibg=#3a4046	gui=none
 hi Title		ctermfg=230						cterm=bold		guifg=#ffffd7					gui=bold
 hi StatusLine	ctermfg=232		ctermbg=241		cterm=none		guifg=#444444	guibg=#626262	gui=none
-hi VertSplit	ctermfg=241		ctermbg=241		cterm=none		guifg=#626262	guibg=#626262 gui=none
+hi VertSplit	ctermfg=241		ctermbg=241		cterm=none		guifg=#626262	guibg=#626262	gui=none
 hi StatusLineNC	ctermfg=236		ctermbg=241		cterm=none		guifg=#303030	guibg=#626262	gui=none
-hi LineNr		ctermfg=241		ctermbg=234		cterm=none		guifg=#857b6f	guibg=#242424	gui=none
-hi SpecialKey	ctermfg=241		ctermbg=234		cterm=none		guifg=#626262	guibg=#242424	gui=none
+hi LineNr		ctermfg=241						cterm=none		guifg=#857b6f					gui=none
+hi SpecialKey	ctermfg=111						cterm=none		guifg=#88b8f6				 	gui=none
 hi WarningMsg	ctermfg=203										guifg=#ff5f55
 hi ErrorMsg		ctermfg=196		ctermbg=236		cterm=bold		guifg=#ff2026	guibg=#3a3a3a	gui=bold
 
@@ -93,4 +93,4 @@ hi! link FoldColumn		Folded
 hi! link CursorColumn	CursorLine
 hi! link NonText		LineNr
 
-" vim:set ts=4 sw=4 noet:
+" vim:set ts=4 sw=4 noet nolinebreak:
