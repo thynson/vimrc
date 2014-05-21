@@ -36,7 +36,6 @@ import ycm_core
 # CHANGE THIS LIST OF FLAGS. YES, THIS IS THE DROID YOU HAVE BEEN LOOKING FOR.
 flags = [
 '-Wall',
-'-Wextra',
 '-Werror',
 '-fexceptions',
 # THIS IS IMPORTANT! Without a "-std=<something>" flag, clang won't know which
