@@ -88,6 +88,7 @@ au FileType c nmap K :!man -S 2,3,5,7 <cword><CR>
 let g:local_vimrc = {'names' : ['.vimrc'], 'hash_fun' : 'LVRHashOfFile'}
 let g:ycm_global_ycm_extra_conf='~/.vim/ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf=0
-colorscheme w-ombat256mod
+let g:ycm_add_preview_to_completeopt=1
+colorscheme wombat256mod
 
 
