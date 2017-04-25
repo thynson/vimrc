@@ -42,9 +42,6 @@
 [submodule "bundle/xmledit"]
 	path = bundle/xmledit
 	url = https://github.com/sukima/xmledit/
-[submodule "bundle/tern"]
-	path = bundle/tern
-	url = https://github.com/marijnh/tern_for_vim.git
 [submodule "bundle/vim-web-indent"]
 	path = bundle/vim-web-indent
 	url = https://github.com/lukaszb/vim-web-indent
